@@ -1,0 +1,11 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/nishan129/textsumrazir/raw/main/summarizer-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+#https://github.com/entbappy/Branching-tutorial/raw/master/summarizer-data.zip
+#curl -X GET \
+ #    "https://datasets-server.huggingface.co/rows?dataset=samsum&config=samsum&split=train&offset=0&limit=100"
